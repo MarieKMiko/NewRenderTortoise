@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1yWPRFshGN7uxvWoGjDyd5OmLMhXq2l7f'
+export_file_url = 'https://www.dropbox.com/s/oz7r5yzbkpe8ifg/tortoise.pkl?dl=1'
 export_file_name = 'tortoise.pkl'
 
 classes = ['egyptian', 'galapagos giant', "hermann's", 'leopard', 'red-footed', 'russian', 'sulcata']
