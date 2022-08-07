@@ -8,6 +8,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+from fastai import learner 
 
 export_file_url = 'https://www.dropbox.com/s/oz7r5yzbkpe8ifg/tortoise.pkl?dl=1'
 export_file_name = 'tortoise.pkl'
